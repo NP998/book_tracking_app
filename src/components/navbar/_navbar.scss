@@ -1,0 +1,25 @@
+.container-navbar{
+    width:90%;
+    display: flex;
+    justify-content: space-between;
+    margin:20px auto;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #dddddd;
+
+    .nav-left{
+        display: flex;
+
+        p{
+            font-size: 25px;
+            font-weight: bold;
+            padding-right:20px ;
+        }
+    }
+    .nav-right{
+        width:15%;
+        display: flex;
+        justify-content: space-between;
+    
+       
+    }
+}
